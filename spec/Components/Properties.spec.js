@@ -16,7 +16,7 @@ describe('When the Properties Component renders...', () => {
     expect(wrapper.exists()).toBe(true);
   });
 
-  it('renders 12 property slides to the DOM', () => {
+  it('renders at most 12 property slides to the DOM', () => {
     expect(wrapper.exists()).toBe(true);
     expect(wrapper.containsMatchingElement(<Property/>));
   });
